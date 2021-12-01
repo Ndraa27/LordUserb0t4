@@ -108,7 +108,7 @@ let antitrol = true
 
 let hit_today = []
 let blocked = []
-let limitawal = "100" 
+let limitawal = "1000" 
 let namabot = setting.botname
 let owner_name = setting.ownername
 let owner_number = setting.ownerNumber
@@ -125,7 +125,7 @@ let multiprefix = true
 let nopref = false
 let autovn = false
 let ngetik = false
-let menusimple = false
+let menusimple = true
 let Mloc = false
 let autoregister = setting.user_register
 let autorespon = setting.autorespon
@@ -442,7 +442,6 @@ var waktoo = date.getHours();
 					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
 
 •> 25k / BULAN (PREMIUM)
-Isi sendiri
 
 Minat? Pm wa.me/${owner_number}`,
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
@@ -1821,7 +1820,7 @@ Alasan : ${reason}`, [sender], true)
 										sendButLocation(from, sewabotkak(), `Sewa bot om?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
-									reply('Isi sendiri')
+									reply('https://tinyurl.com/yyw4hncy')
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
@@ -3207,7 +3206,7 @@ ${teks}`, members_id, true)
 🔖 Versi OS : ${os_version}
 🔖 Merk HP : ${device_manufacturer}
 🔖 Versi HP : ${device_model}
-🔖 Browser : ${Zeeone.browserDescription}
+🔖 Browser : Linux (Mhycka)  
 🔖 Baterai : ${isBattre} %
 🔖 Charging : ${isCharge}
 `
@@ -3224,7 +3223,7 @@ let qqppp = [{
                     },
                     "type": "RESPONSE"
                 }]
-                sendButLocation(from, teks, `LordUserbot™© | Allright Reserved.`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
+                sendButLocation(from, teks, `Mhycka™© | Made With❣️`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
 				
 } catch (e){
 reply(`${e}`)
