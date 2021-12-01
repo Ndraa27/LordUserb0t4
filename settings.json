@@ -2,7 +2,7 @@
     "self_mode": true,
     "anti_delete": false,
     "anti_call": true,
-    "autorespon": true,
+    "autorespon": false,
     "user_register": false,
     "auto_welcome": true,
     "auto_leave": true,
