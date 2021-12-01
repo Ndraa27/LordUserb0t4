@@ -1817,10 +1817,10 @@ Alasan : ${reason}`, [sender], true)
 											},
 										"type": "RESPONSE"
 										}]
-										sendButLocation(from, sewabotkak(), `Sewa bot om?`,  thumbnail, gakloo,{})
+										sendButLocation(from, sewabotkak(), `Sewa bot kak?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
-									reply('https://tinyurl.com/yyw4hncy')
+									reply('*https://tinyurl.com/yyw4hncy*')
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
@@ -2249,7 +2249,7 @@ Alasan : ${reason}`, [sender], true)
 						case 'me': case 'myinfo': case 'info': case 'profile': case 'profil':{
 									var p = await Zeeone.getStatus(`${sender}`, MessageType.text)
 									let cek = ms(await premium.getPremiumExpired(sender, _premium) - Date.now())
-									Zeeone.sendMessage(from, pp_userz, image, {thumbnail:pp_userz, caption:` * USER PROFILE*
+									Zeeone.sendMessage(from, pp_userz, image, {thumbnail:pp_userz, caption:` *USER PROFILE*
 
 📛 Nama : ${pushname==undefined?sender.split("@")[0]:pushname}
 🎯 Bio : ${p.status==undefined?`Not Found`:p.status}
@@ -3207,7 +3207,7 @@ ${teks}`, members_id, true)
 🔖 Merk HP : ${device_manufacturer}
 🔖 Versi HP : ${device_model}
 🔖 Browser : Linux (Mhycka)  
-🔖 Baterai : ${isBattre} %
+🔖 Baterai : ${isBattre} 
 🔖 Charging : ${isCharge}
 `
 let qqppp = [{
