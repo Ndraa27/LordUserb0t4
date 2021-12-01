@@ -134,39 +134,7 @@ ${simbolnya} ${prefix}antibadword [on/off]
 ${simbolnya} ${prefix}antilink [on/off]
 ${simbolnya} ${prefix}antitroli [on/off]
 
-ℒ⃝😋 *Anime-Menu* 
-${simbolnya} ${prefix}loli
-${simbolnya} ${prefix}neko
-${simbolnya} ${prefix}waifu
-${simbolnya} ${prefix}shinobu
-${simbolnya} ${prefix}megumin
-${simbolnya} ${prefix}bully
-${simbolnya} ${prefix}cuddle
-${simbolnya} ${prefix}cry
-${simbolnya} ${prefix}hug
-${simbolnya} ${prefix}awoo
-${simbolnya} ${prefix}kiss
-${simbolnya} ${prefix}lick
-${simbolnya} ${prefix}pat
-${simbolnya} ${prefix}smug
-${simbolnya} ${prefix}bonk
-${simbolnya} ${prefix}yeet
-${simbolnya} ${prefix}blush
-${simbolnya} ${prefix}smile
-${simbolnya} ${prefix}wave
-${simbolnya} ${prefix}highfive
-${simbolnya} ${prefix}handhold
-${simbolnya} ${prefix}nom
-${simbolnya} ${prefix}bite
-${simbolnya} ${prefix}glomp
-${simbolnya} ${prefix}slap
-${simbolnya} ${prefix}kill
-${simbolnya} ${prefix}happy
-${simbolnya} ${prefix}wink
-${simbolnya} ${prefix}poke
-${simbolnya} ${prefix}dance
-${simbolnya} ${prefix}cringe
-   
+
 ℒ⃝📊 *Limit-Menu*
 ${simbolnya} ${prefix}topbalance
 ${simbolnya} ${prefix}toplimit
@@ -199,7 +167,6 @@ ${simbolnya} ${prefix}pantun
 ${simbolnya} ${prefix}faktaunik
 ${simbolnya} ${prefix}styletext
 ${simbolnya} ${prefix}donasi
-${simbolnya} ${prefix}asupan
 ${simbolnya} ${prefix}nulis
 ${simbolnya} ${prefix}getnumber
 ${simbolnya} ${prefix}getpic
