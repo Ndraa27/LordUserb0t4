@@ -1727,22 +1727,6 @@ if (!q) return reply('Linknya?')
 											reply(result)
 										})
 									break
-						case 'waifu': case 'shinobu': case 'megumin': case 'bully': case 'cuddle': case 'cry': case 'hug': case 'awoo': case 'kiss': case 'lick': case 'pat': case 'smug': case 'bonk': case 'yeet': case 'blush': case 'smile': case 'wave': case 'highfive': case 'handhold': case 'nom': case 'bite': case 'glomp': case 'slap': case 'kill': case 'happy': case 'wink': case 'poke': case 'dance': case 'cringe': 
-              reply(mess.wait)
-              let waifu = await fetchJson(`https://api.waifu.pics/sfw/${command.split(prefix)[1]}`)
-                await sendFileFromUrl(from,waifu.url,`${command}`,Ofc)
-                .catch((err) => {
-                    reply('Terjadi kesalahan')
-                })
-		break
-            case 'loli': case 'neko': 
-              reply(mess.wait)
-              let loli = await fetchJson(`https://api.waifu.pics/sfw/neko`)
-              await sendFileFromUrl(from,loli.url,`${command}`,Ofc)
-                .catch((err) => {
-                       reply('Terjadi kesalahan')
-                })
-		break
 						case 'asupan':{
 									if (isLimit(sender, isPremium, isOwner, limitawal, limit)) return reply(mess.limit)
 									reply(mess.wait)
