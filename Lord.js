@@ -2900,7 +2900,7 @@ Alasan : ${reason}`, [sender], true)
 										"displayName": `${ini_list.length} kontak`,
 										"contacts": ini_list 
 										}, 'contactsArrayMessage', { quoted: Ofc })
-										Zeeone.sendMessage(from, `Nih Kak Contact Owner Ku ✨`, text, {quoted: hehe})
+										Zeeone.sendMessage(from, `Jika Mau Save Chat Aja Gan Ntar Disave Back:)`, text, {quoted: hehe})
 										}
 										break
 						case 'lirik':
@@ -3223,7 +3223,7 @@ let qqppp = [{
                     },
                     "type": "RESPONSE"
                 }]
-                sendButLocation(from, teks, `Rizky™© | 🇮🇩🇹🇭🇷🇺🇰🇷`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
+                sendButLocation(from, teks, `Rizky™© | jangan lupa bernafas bang`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
 				
 } catch (e){
 reply(`${e}`)
