@@ -2249,7 +2249,7 @@ Alasan : ${reason}`, [sender], true)
 						case 'me': case 'myinfo': case 'info': case 'profile': case 'profil':{
 									var p = await Zeeone.getStatus(`${sender}`, MessageType.text)
 									let cek = ms(await premium.getPremiumExpired(sender, _premium) - Date.now())
-									Zeeone.sendMessage(from, pp_userz, image, {thumbnail:pp_userz, caption:` * USER PROFILE*
+									Zeeone.sendMessage(from, pp_userz, image, {thumbnail:pp_userz, caption:` *USER PROFILE*
 
 📛 Nama : ${pushname==undefined?sender.split("@")[0]:pushname}
 🎯 Bio : ${p.status==undefined?`Not Found`:p.status}
@@ -3223,7 +3223,7 @@ let qqppp = [{
                     },
                     "type": "RESPONSE"
                 }]
-                sendButLocation(from, teks, `Rizky™© | jangan lupa bernafas bang`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
+                sendButLocation(from, teks, `Rizky™© | 🇮🇩🇹🇭🇹🇷🇵🇸🇸🇬`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
 				
 } catch (e){
 reply(`${e}`)
