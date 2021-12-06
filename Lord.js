@@ -2238,16 +2238,16 @@ Alasan : ${reason}`, [sender], true)
 📛 Nama : ${pushname==undefined?sender.split("@")[0]:pushname}
 🎯 Bio : ${p.status==undefined?`Not Found`:p.status}
 💬 Tag : @${sender.split("@")[0]}
-🆔 Api : wa.me/${sender.split("@")[0]}
+💥 Api : wa.me/${sender.split("@")[0]}
 
-⬣ Limit : ${isPremium ? 'Unlimited Premium' : `${getLimit(sender, limitawal, limit)} / ${limitawal}`}
-⬣ Balance : ${getBalance(sender, balance)}
-⬣ Role : ${role}
-⬣ Level : ${getLevelingLevel(sender)}
-⬣ Xp : ${getLevelingXp(sender)}
-⬣ Status : ${isOwner?`Owner`:isPremium?`Premium User
-⬣ Expired Prem : ${cek.days} d, ${cek.hours} h, ${cek.minutes} m, ${cek.seconds} s`:isUser?`Free User`:`Belum Daftar`}
-⬣ Baned : ${isBanned?`Terbanned`:`Tidak Terbanned`}`, quoted: Ofc, contextInfo:{mentionedJid:[sender]}})
+💳 Limit : ${isPremium ? 'Unlimited Premium' : `${getLimit(sender, limitawal, limit)} / ${limitawal}`}
+💶 Balance : ${getBalance(sender, balance)}
+💱 Role : ${role}
+🎚️ Level : ${getLevelingLevel(sender)}
+🏦 Xp : ${getLevelingXp(sender)}
+💌 Status : ${isOwner?`Owner`:isPremium?`Premium User
+⏳ Expired Prem : ${cek.days} d, ${cek.hours} h, ${cek.minutes} m, ${cek.seconds} s`:isUser?`Free User`:`Belum Daftar`}
+🚫 Baned : ${isBanned?`Terbanned`:`Tidak Terbanned`}`, quoted: Ofc, contextInfo:{mentionedJid:[sender]}})
 									}
 									break
 						case 'listonline': case 'listaktif':
