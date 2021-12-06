@@ -1804,7 +1804,16 @@ Alasan : ${reason}`, [sender], true)
 										sendButLocation(from, sewabotkak(), `Sewa bot kak?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
-									reply('*https://tinyurl.com/yyw4hncy*')
+									reply('╭─❒ *Donation Nasa Bot* ❒
+│📛 *Nama :* ${pushname}
+│#️⃣ *Nomor :* @${sender.split('@')[0]}
+│💌 *Bio :* ${bio_user}
+│⏰ *Time :* ${wib} Wib
+│
+│〽️ _*Hai Kak silahkan hubungi:*_
+│💬 _*wa.me/6285340409831*_
+│🌀 *bit.ly/MhyckaHervianandaa*
+╰❒ *Thank you*`)
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
