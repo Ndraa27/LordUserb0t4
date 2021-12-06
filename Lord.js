@@ -1805,11 +1805,8 @@ Alasan : ${reason}`, [sender], true)
 										break
 						case 'donasi':
 									reply('╭─❒ *Donation Nasa Bot* ❒
-│📛 *Nama :* ${pushname}
-│#️⃣ *Nomor :* @${sender.split('@')[0]}
-│💌 *Bio :* ${bio_user}
+││📛 *Nama :* ${pushname}
 │⏰ *Time :* ${wib} Wib
-│
 │〽️ _*Hai Kak silahkan hubungi:*_
 │💬 _*wa.me/6285340409831*_
 │🌀 *bit.ly/MhyckaHervianandaa*
