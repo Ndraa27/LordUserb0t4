@@ -1805,12 +1805,10 @@ Alasan : ${reason}`, [sender], true)
 										break
 						case 'donasi':
 									reply('╭─❒ *Donation Nasa Bot* ❒
-││📛 *Nama :* ${pushname}
-│⏰ *Time :* ${wib} Wib
 │〽️ _*Hai Kak silahkan hubungi:*_
 │💬 _*wa.me/6285340409831*_
 │🌀 *bit.ly/MhyckaHervianandaa*
-╰❒ *Thank you*`)
+╰❒ *Thank you* `)
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
