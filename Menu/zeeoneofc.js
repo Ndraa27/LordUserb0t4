@@ -9,7 +9,7 @@ return`Hello ${pushname}🤗 Saya ${namabot}
 💹 Balance : ${getBalance(sender, balance)}
 
 
-ℒ⃝👦 *Owner-Menu*
+ℒ⃝🤴🏻 *Owner-Menu*
 ${simbolnya} ${prefix}bc
 ${simbolnya} ${prefix}exif
 ${simbolnya} ${prefix}ban
@@ -104,7 +104,7 @@ ${simbolnya} ${prefix}addsticker
 ${simbolnya} ${prefix}liststicker
 ${simbolnya} ${prefix}delstik
 
-ℒ⃝⛪ *Fun-Menu*
+ℒ⃝🌀 *Fun-Menu*
 ${simbolnya} ${prefix}slot
 ${simbolnya} ${prefix}truth
 ${simbolnya} ${prefix}dare
@@ -113,7 +113,7 @@ ${simbolnya} ${prefix}delvote
 	vote
 	devote
    
-ℒ⃝👩‍👩‍👧‍👧 *Group-Menu*
+ℒ⃝🌐 *Group-Menu*
 ${simbolnya} ${prefix}chatinfo
 ${simbolnya} ${prefix}afk reason
 ${simbolnya} ${prefix}hidetag
