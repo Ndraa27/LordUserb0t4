@@ -1814,7 +1814,7 @@ Alasan : ${reason}`, [sender], true)
 
 									break
 						case 'instagramm':
-									reply('╭─❒ *INSTAGRAM* ❒\n│🌀 *Jangan lupa follow:*\n│➳ _*instagram.com/mhyckaherviananda*_\n╰❒ *By Mhycka*')
+									reply('╭─❒ *INSTAGRAM* ❒\n│🌀 *Jangan lupa follow:*\n│➳ _*https://bit.ly/instagramhycka*_\n╰❒ *By Mhycka*')
 
 									break
 						case 'join':case 'joingc':
