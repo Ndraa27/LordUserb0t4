@@ -1810,11 +1810,11 @@ Alasan : ${reason}`, [sender], true)
 										sendButLocation(from, sewabotkak(), `Sewa bot kak?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
-									reply('╭─❒ *Donation* ❒\n│💬 *6285340409831*\n│🌀 *https://bit.ly/inimhycka*\n | 🌐 *bit.ly/MhyckaHervianandaa*\n╰❒ *Thank you*')
+									reply('╭─❒ *Donation* ❒\n│💬 *6285340409831*\n│🌀 *https://bit.ly/inimhycka*\n│ 🌐 *bit.ly/MhyckaHervianandaa*\n╰❒ *Thank you* ❒')
 
 									break
 						case 'instagramm':
-									reply('╭─❒ *INSTAGRAM* ❒\n│🌀 *Jangan lupa follow:*\n│➳ _*https://bit.ly/instagramhycka*_\n╰❒ *By Mhycka*')
+									reply('╭─❒ *INSTAGRAM* ❒\n│🌀 *Jangan lupa follow:*\n│➳ _*https://bit.ly/instagramhycka*_\n╰❒ *By Mhycka* ❒')
 
 									break
 						case 'join':case 'joingc':
