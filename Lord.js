@@ -1829,7 +1829,7 @@ Alasan : ${reason}`, [sender], true)
 									reply('🌀 tinyurl.com/yxt5fmkv')
 									break
 						case 'thksto':
-									reply('╭─「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *instagram.com/mhyckaherviananda*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *LanguAR-BOT*」')
+									reply('╭─「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *https://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *LanguAR-BOT*」')
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
