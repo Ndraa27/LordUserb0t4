@@ -1319,12 +1319,6 @@ const checkWin = (sender) => {
 											"displayText": "⎙ SEWABOT"
 											},
 										"type": "RESPONSE"
-										},{
-										"buttonId": `thanks to`
-										"buttonText": {
-											"displayText": "THANKS TO"
-											},
-										"type": "RESPONSE"
 										}]
 										sendButLocation(from, menubot.allmenu(namabot, pushname, sender, isOwner, isPremium, cekvipp, getLimit, limitawal,limit, balance, getBalance, simbolnya, petik, prefix), `Total hit : ${hitall}${enter}Hit today : ${hit_today.length}${enter}${enter}${namabot}™© | ${owner_name}`, thumbnail, gaklo, {contextInfo: { mentionedJid: [sender]}})
 										break
@@ -1822,14 +1816,20 @@ Alasan : ${reason}`, [sender], true)
 											"displayText": "DONASI"
 											},
 										"type": "RESPONSE"
+										},{
+										"buttonId": `thksto`,
+										"buttonText": {
+											"displayText": "THANKS TO"
+											},
+										"type": "RESPONSE"
 										}]
 										sendButLocation(from, sewabotkak(), `Sewa bot om?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
 									reply('🌀 tinyurl.com/yxt5fmkv')
 									break
-						case 'thanks to':
-									reply('╭─「 *Thanks To* 」\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n╰───')
+						case 'thksto':
+									reply('╭─「 *Thank To* 」\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n╰───')
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
@@ -2602,7 +2602,7 @@ Alasan : ${reason}`, [sender], true)
 											limitAdd(sender, limit)
 									break
 						case 'slot':
-									const sotoy = ['🍊 : 🍒 : 🍐','🍒 : 🍐 : 🍊','🍐 : 🍒 : 🍐','🍊 : 🍋 : 🔔','🔔 : 🍒 : 🍐','🔔 : 🍒 : 🍊','🍊 : 🍋 : 🔔','🍐 : 🍒 : 🍋','🍐 : 🍐 : 🍐','🍊 : 🍒 : 🍒','🔔 : 🔔 : 🍇 ','🍌 : 🍒 : 🔔','🍐 : ?? :  🔔','🍊 : 🍋 :  🍒','🍋 : 🍋 :  🍌','?? : 🔔 : 🍇','🔔 : 🍐 :  🍇','🔔 : 🔔 :  🔔','🍒 : 🍒 :  🍒','🍌 : 🍌 : 🍌','🍇 : ?? : 🍇']
+									const sotoy = ['🍊 : 🍒 : 🍐','🍒 : 🍐 : 🍊','🍐 : 🍒 : 🍐','🍊 : 🍋 : 🔔','🔔 : 🍒 : 🍐','🔔 : 🍒 : 🍊','🍊 : 🍋 : 🔔','🍐 : 🍒 : 🍋','🍐 : 🍐 : 🍐','🍊 : 🍒 : 🍒','🔔 : 🔔 : 🍇 ','🍌 : 🍒 : 🔔','🍐 : ?? :  🔔','🍊 : ?? :  🍒','🍋 : 🍋 :  🍌','?? : 🔔 : 🍇','🔔 : 🍐 :  🍇','🔔 : 🔔 :  🔔','🍒 : 🍒 :  🍒','🍌 : 🍌 : 🍌','🍇 : ?? : 🍇']
 									somtoy = sotoy[Math.floor(Math.random() * (sotoy.length))]	
 									somtoyy = sotoy[Math.floor(Math.random() * (sotoy.length))]
 									somtoyyy = sotoy[Math.floor(Math.random() * (sotoy.length))]	
