@@ -1265,7 +1265,7 @@ const checkWin = (sender) => {
 							if (requiredXp <= getLevelingXp(sender)) {
 								addLevelingLevel(sender, 1)
 								addBalance(sender, 30, balance)
-								reply(`* 「 LEVEL UP 」 *\n\n🎯 *User :* @${sender.split("@")[0]}\n🆔 *Nomer :* ${sender.split("@")[0]}\n📊 *Xp :* ${getLevelingXp(sender)}\n💹 *Level :* ${getLevel} > ${getLevelingLevel(sender)}\n💳 *Balance :* $${getBalance(sender, balance)}*\n📛 *Role :* ${role}\n\nCongrats 🎉`)
+								reply(`*「 LEVEL UP 」*\n\n🎯 *User :* @${sender.split("@")[0]}\n🆔 *Nomer :* ${sender.split("@")[0]}\n📊 *Xp :* ${getLevelingXp(sender)}\n💹 *Level :* ${getLevel} > ${getLevelingLevel(sender)}\n💳 *Balance :* $${getBalance(sender, balance)}*\n📛 *Role :* ${role}\n\nCongrats 🎉`)
 								}
 							} catch (err) {
 								console.error(err)
@@ -1820,7 +1820,7 @@ Alasan : ${reason}`, [sender], true)
 										sendButLocation(from, sewabotkak(), `Sewa bot om?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
-									reply('Isi sendiri')
+									reply('🌀 tinyurl.com/yxt5fmkv')
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
