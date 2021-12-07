@@ -1800,11 +1800,21 @@ Alasan : ${reason}`, [sender], true)
 											"displayText": "DONASI"
 											},
 										"type": "RESPONSE"
+										},{
+										"buttonId": `instagramm`,
+										"buttonText": {
+											"displayText": "INSTAGRAM"
+											},
+										"type": "RESPONSE"
 										}]
 										sendButLocation(from, sewabotkak(), `Sewa bot kak?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
 									reply('╭─❒ *Donation* ❒\n│💬 *6285340409831*\n│🌀 *https://bit.ly/inimhycka*\n | 🌐 *bit.ly/MhyckaHervianandaa*\n╰❒ *Thank you*')
+
+									break
+						case 'instagramm':
+									reply('╭─❒ *INSTAGRAM* ❒\n│🌀 *Jangan lupa follow:*\n│➳ _*instagram.com/mhyckaherviananda*_\n╰❒ *By Mhycka*')
 
 									break
 						case 'join':case 'joingc':
