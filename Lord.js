@@ -1319,6 +1319,12 @@ const checkWin = (sender) => {
 											"displayText": "⎙ SEWABOT"
 											},
 										"type": "RESPONSE"
+										},{
+										"buttonId": `thanks to`
+										"buttonText": {
+											"displayText": "THANKS TO"
+											},
+										"type": "RESPONSE"
 										}]
 										sendButLocation(from, menubot.allmenu(namabot, pushname, sender, isOwner, isPremium, cekvipp, getLimit, limitawal,limit, balance, getBalance, simbolnya, petik, prefix), `Total hit : ${hitall}${enter}Hit today : ${hit_today.length}${enter}${enter}${namabot}™© | ${owner_name}`, thumbnail, gaklo, {contextInfo: { mentionedJid: [sender]}})
 										break
@@ -1821,6 +1827,9 @@ Alasan : ${reason}`, [sender], true)
 										break
 						case 'donasi':
 									reply('🌀 tinyurl.com/yxt5fmkv')
+									break
+						case 'thanks to':
+									reply('╭─「 *Thanks To* 」\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n╰───')
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
