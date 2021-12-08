@@ -1333,7 +1333,7 @@ const checkWin = (sender) => {
 											"buttonId": `menu`,
 											"buttonText": {
 												"displayText": "MENU"
-												}, 
+												},
 												"type": "RESPONSE"
 												},{
 													"buttonId": `me`,
@@ -1801,7 +1801,7 @@ Alasan : ${reason}`, [sender], true)
 											},
 										"type": "RESPONSE"
 										},{
-										"buttonId": `igmhyckaherviananda`,
+										"buttonId": `thksto`,
 										"buttonText": {
 											"displayText": "INSTAGRAM"
 											},
@@ -1813,8 +1813,8 @@ Alasan : ${reason}`, [sender], true)
 									reply('╭─❒ *Donation*\n│💬 *6285340409831*\n│🌀 *bit.ly/mhyckaaa*\n│🌀 *bit.ly/mhyckaherviananda*\n╰❒ *Thank you*')
 
 									break
-						case 'igmhyckaherviananda':
-									reply('╭─❒ *INSTAGRAM*\n│➳ _*https://bit.ly/instagramhycka*_\n│➳ _*https://bit.ly/instagramhyckaa*_\n╰❒ *By Mhycka*')
+						case 'thksto':
+									reply('╭─❒ *INSTAGRAM*\n│➳ _*bit.ly/instagramhycka*_\n│➳ _*bit.ly/instagramhyckaa*_\n╰❒  \n\n╭──「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT*」')
 
 									break
 						case 'join':case 'joingc':
@@ -2259,16 +2259,6 @@ Alasan : ${reason}`, [sender], true)
 💌 Status : ${isOwner?`Owner`:isPremium?`Premium User
 ⏳ Expired Prem : ${cek.days} d, ${cek.hours} h, ${cek.minutes} m, ${cek.seconds} s`:isUser?`Free User`:`Belum Daftar`}
 🚫 Baned : ${isBanned?`Terbanned`:`Tidak Terbanned`}`, quoted: Ofc, contextInfo:{mentionedJid:[sender]}})
-                            let mhy = [{
-											"buttonId": `thksto`,
-											"buttonText": {
-												"displayText": "SPECIAL THANKS FOR"
-												}]
-												sendButLocation(from, mhy,{})
-									break
-					    case 'thksto':
-									reply('╭──「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT* 」')
-
 									}
 									break
 						case 'listonline': case 'listaktif':
@@ -3877,7 +3867,7 @@ reply(String(e))
 if (isGroup && budy != undefined) {
 	} else {
 	console.log(color('[ PRIVATE ]', 'aqua'), wib, color(pushname))
-	}	
+	}		
 	} catch (e) {
     e = String(e)
     if (!e.includes("this.isZero")) {
