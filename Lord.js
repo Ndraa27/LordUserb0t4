@@ -1815,15 +1815,6 @@ Alasan : ${reason}`, [sender], true)
 									break
 						case 'igmhyckaherviananda':
 									reply('╭─❒ *INSTAGRAM*\n│➳ _*https://bit.ly/instagramhycka*_\n│➳ _*https://bit.ly/instagramhyckaa*_\n╰❒ *By Mhycka*')
-                                    let mhy = [{
-											"buttonId": `thksto`,
-											"buttonText": {
-												"displayText": "SPECIAL THANKS FOR"
-												}]
-												sendButLocation(from, mhy,{})
-									break
-					    case 'thksto':
-									reply('╭──「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT* 」')
 
 									break
 						case 'join':case 'joingc':
@@ -2268,6 +2259,16 @@ Alasan : ${reason}`, [sender], true)
 💌 Status : ${isOwner?`Owner`:isPremium?`Premium User
 ⏳ Expired Prem : ${cek.days} d, ${cek.hours} h, ${cek.minutes} m, ${cek.seconds} s`:isUser?`Free User`:`Belum Daftar`}
 🚫 Baned : ${isBanned?`Terbanned`:`Tidak Terbanned`}`, quoted: Ofc, contextInfo:{mentionedJid:[sender]}})
+                            let mhy = [{
+											"buttonId": `thksto`,
+											"buttonText": {
+												"displayText": "SPECIAL THANKS FOR"
+												}]
+												sendButLocation(from, mhy,{})
+									break
+					    case 'thksto':
+									reply('╭──「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT* 」')
+
 									}
 									break
 						case 'listonline': case 'listaktif':
