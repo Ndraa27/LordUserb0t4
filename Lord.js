@@ -439,11 +439,15 @@ var waktoo = date.getHours();
 				mess = {
 					wait: 'Proses Lord..',
 					limit: 'Limit kamu habis lord , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
-					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
+					sewabot: ` 「 *SEWA BOT* 」 \n\n*Berikut list sewa bot kami*
 
-•> 20k / BULAN (PREMIUM)
+➳ 1 MINGGU = Rp 10.000
+➳ 2 MINGGU = Rp 15.000
+➳ 3 MINGGU = Rp 20.000
+➳ 1 BULAN   = Rp 25.000
 
-Minat? Pm wa.me/${owner_number}`,
+MINAT? PM:
+_wa.me/${owner_number}_`,
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
 					error: 'Error Lord, Mungkin Lagi Diperbaiki',
 					errorLink: 'Link Error Lord',
