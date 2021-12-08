@@ -3232,7 +3232,7 @@ reply(`${e}`)
 }
 break
                        case 'thksto':
-									reply('╭──「 *THANKS TO* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT*」')
+									reply('╭──「 *THANKS TO* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *https://bit.ly/instagramhycka*\n│ *http://bit.ly/instagraisyahmad*\n│ *http://bit.ly/instagramitadilla*\n│ *http://bit.ly/instagraeizk*\n│\n╰─「 *NΛSΛ-BOT*」')
 
 									break    
 						case 'clearall':{
