@@ -455,7 +455,7 @@ _*wa.me/${owner_number}*_`,
 						personal: 'Only Private Chat Lord',
 						admin: 'Khusus Admin Group Lord',
 						group: 'Khusus Dalam Grup Lord',
-						 prem: 'Khusus  Owner Bot Lord',
+						 prem: 'Khusus Owner Bot Lord',
 						owner: 'Khusus Owner Bot Lord',
 						 }
 					} 
@@ -1628,7 +1628,7 @@ if (!q) return reply('Linknya?')
 											}
 									break
 					 case 'ytmp4': case 'ytvideo':{
-									if (!q) return reply(`Example : ${prefix+command} https://youtu.be/kxjMsMST4Rw`)
+									if (!q) return reply(`Example : ${prefix+command} query`)
 									let isLinks = args[0].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
 									if (!isLinks) return reply('Eror')
 									reply(mess.wait)
@@ -2872,7 +2872,7 @@ Alasan : ${reason}`, [sender], true)
 																			.toFormat('webp')
 																			.save(`./sticker/${sender}.webp`)
 																			} else {
-																				reply(`Kirim gambar/video dengan caption ${prefix}sticker atau tag gambar/video yang sudah dikirim\nNote : Durasi video maximal 10 detik`)
+																				reply(`Reply gambar/video dengan caption ${prefix}sticker\nNote : Durasi video maximal 10 detik`)
 																				}
 																				limitAdd(sender, limit)
 												break
