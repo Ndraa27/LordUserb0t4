@@ -3224,7 +3224,6 @@ let qqppp = [{
                     },
                     "type": "RESPONSE"
                 }]
-                }]
                 sendButLocation(from, teks, `Mhycka™© | Made With❣️`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
 				
 } catch (e){
@@ -3232,7 +3231,7 @@ reply(`${e}`)
 }
 }
 break
-                        case 'thksto':
+                       case 'thksto':
 									reply('╭──「 *THANKS TO* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT*」')
 
 									break    
