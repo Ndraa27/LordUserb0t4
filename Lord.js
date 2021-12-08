@@ -1807,7 +1807,7 @@ Alasan : ${reason}`, [sender], true)
 									let gakloo = [{
 										"buttonId": `owner`,
 										"buttonText": {
-											"displayText": "OWNER"
+											"displayText": "BUEÑO"
 											},
 										"type": "RESPONSE"
 										},{
@@ -1819,7 +1819,7 @@ Alasan : ${reason}`, [sender], true)
 										},{
 										"buttonId": `thksto`,
 										"buttonText": {
-											"displayText": "GRACIAS POR"
+											"displayText": "GRAZIE PER"
 											},
 										"type": "RESPONSE"
 										}]
