@@ -439,15 +439,17 @@ var waktoo = date.getHours();
 				mess = {
 					wait: 'Proses Lord..',
 					limit: 'Limit kamu habis lord , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
-					sewabot: ` 「 *SEWA BOT* 」 \n\n*Berikut list sewa bot kami*
-
+					sewabot: 
+sendButLocation(from, ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
+					
 ➳ 1 MINGGU = Rp 10.000
 ➳ 2 MINGGU = Rp 15.000
 ➳ 3 MINGGU = Rp 20.000
 ➳ 1 BULAN   = Rp 25.000
 
 MINAT? PM:
-_wa.me/${owner_number}_`,
+_wa.me/${owner_number}_`,) 
+										break
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
 					error: 'Error Lord, Mungkin Lagi Diperbaiki',
 					errorLink: 'Link Error Lord',
@@ -1805,20 +1807,20 @@ Alasan : ${reason}`, [sender], true)
 											},
 										"type": "RESPONSE"
 										},{
-										"buttonId": `instamhycka`,
+										"buttonId": `thksto`,
 										"buttonText": {
-											"displayText": "INSTAGRAM"
+											"displayText": "THANKS FOR"
 											},
 										"type": "RESPONSE"
 										}]
 										sendButLocation(from, sewabotkak(), `Sewa bot kak?`,  thumbnail, gakloo,{})
 										break
-						case 'donasi':
-									reply('╭─❒ *Donation*\n│💬 *6285340409831*\n│🌀 *bit.ly/mhyckaaa*\n│🌀 *bit.ly/mhyckaherviananda*\n╰❒ *Thank you*')
+					   case 'thksto':
+									reply('╭──「 *THANKS TO* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *https://bit.ly/instagramhycka*\n│ *http://bit.ly/instagraisyahmad*\n│ *http://bit.ly/instagramitadilla*\n│ *http://bit.ly/instagraeizk*\n│\n╰─「 *NΛSΛ-BOT*」')
 
 									break
-						case 'instamhycka':
-									reply('╭─❒ *INSTAGRAM*\n│➳ _*bit.ly/instagramhycka*_\n│➳ _*bit.ly/instagramhyckaa*_\n╰❒ _*Creator NΛSΛ-BOT*_')
+						case 'donasi':
+									reply('╭─❒ *Donation* ❒\n│➳ *6285340409831*\n│➳ *bit.ly/mhyckaaa*\n | ➳ *bit.ly/mhyckaherviananda*\n╰❒ *Thank you*')
 
 									break
 						case 'join':case 'joingc':
@@ -2254,7 +2256,6 @@ Alasan : ${reason}`, [sender], true)
 🎯 Bio : ${p.status==undefined?`Not Found`:p.status}
 💬 Tag : @${sender.split("@")[0]}
 💥 Api : wa.me/${sender.split("@")[0]}
-
 💳 Limit : ${isPremium ? 'Unlimited Premium' : `${getLimit(sender, limitawal, limit)} / ${limitawal}`}
 💶 Balance : ${getBalance(sender, balance)}
 💱 Role : ${role}
@@ -3199,7 +3200,7 @@ ${teks}`, members_id, true)
 「 *PHONE STATISTIC* 」
  
 🔖 Whatsapp Ver. : ${wa_version}
-🔖 Ram Usage : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+🔖 Ram : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 🔖 Mcc : ${mcc}
 🔖 Mnc : ${mnc}
 🔖 Versi OS : ${os_version}
@@ -3218,13 +3219,7 @@ let qqppp = [{
                 },{
                     "buttonId": `${prefix}sewa`,
                     "buttonText": {
-                        "displayText": "SEWA"
-                    },
-                    "type": "RESPONSE"
-                  },{
-                    "buttonId": `thksto`,
-                    "buttonText": {
-                        "displayText": "SPECIAL THANKS FOR"
+                        "displayText": "RENT"
                     },
                     "type": "RESPONSE"
                 }]
@@ -3235,10 +3230,6 @@ reply(`${e}`)
 }
 }
 break
-                       case 'thksto':
-									reply('╭──「 *THANKS TO* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *https://bit.ly/instagramhycka*\n│ *http://bit.ly/instagraisyahmad*\n│ *http://bit.ly/instagramitadilla*\n│ *http://bit.ly/instagraeizk*\n│\n╰─「 *NΛSΛ-BOT*」')
-
-									break    
 						case 'clearall':{
 									if (!isOwner && !Ofc.key.fromMe) return
 									let chiit = await Zeeone.chats.all()
