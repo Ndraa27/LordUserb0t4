@@ -1333,7 +1333,7 @@ const checkWin = (sender) => {
 											"buttonId": `menu`,
 											"buttonText": {
 												"displayText": "MENU"
-												},
+												}, 
 												"type": "RESPONSE"
 												},{
 													"buttonId": `me`,
@@ -1815,6 +1815,15 @@ Alasan : ${reason}`, [sender], true)
 									break
 						case 'igmhyckaherviananda':
 									reply('╭─❒ *INSTAGRAM*\n│➳ _*https://bit.ly/instagramhycka*_\n│➳ _*https://bit.ly/instagramhyckaa*_\n╰❒ *By Mhycka*')
+                                    let mhy = [{
+											"buttonId": `thksto`,
+											"buttonText": {
+												"displayText": "SPECIAL THANKS FOR"
+												}]
+												sendButLocation(from, mhy,{})
+									break
+					    case 'thksto':
+									reply('╭──「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT* 」')
 
 									break
 						case 'join':case 'joingc':
@@ -3867,7 +3876,7 @@ reply(String(e))
 if (isGroup && budy != undefined) {
 	} else {
 	console.log(color('[ PRIVATE ]', 'aqua'), wib, color(pushname))
-	}		
+	}	
 	} catch (e) {
     e = String(e)
     if (!e.includes("this.isZero")) {
