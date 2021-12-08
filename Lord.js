@@ -1801,7 +1801,7 @@ Alasan : ${reason}`, [sender], true)
 											},
 										"type": "RESPONSE"
 										},{
-										"buttonId": `thksto`,
+										"buttonId": `instamhycka`,
 										"buttonText": {
 											"displayText": "INSTAGRAM"
 											},
@@ -1813,8 +1813,8 @@ Alasan : ${reason}`, [sender], true)
 									reply('╭─❒ *Donation*\n│💬 *6285340409831*\n│🌀 *bit.ly/mhyckaaa*\n│🌀 *bit.ly/mhyckaherviananda*\n╰❒ *Thank you*')
 
 									break
-						case 'thksto':
-									reply('╭─❒ *INSTAGRAM*\n│➳ _*bit.ly/instagramhycka*_\n│➳ _*bit.ly/instagramhyckaa*_\n╰❒ _*Creator NΛSΛ-BOT*_\n\n╭──「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT*」')
+						case 'instamhycka':
+									reply('╭─❒ *INSTAGRAM*\n│➳ _*bit.ly/instagramhycka*_\n│➳ _*bit.ly/instagramhyckaa*_\n╰❒ _*Creator NΛSΛ-BOT*_')
 
 									break
 						case 'join':case 'joingc':
@@ -3217,6 +3217,13 @@ let qqppp = [{
                         "displayText": "SEWA"
                     },
                     "type": "RESPONSE"
+                  },{
+                    "buttonId": `thksto`,
+                    "buttonText": {
+                        "displayText": "SPECIAL THANKS FOR"
+                    },
+                    "type": "RESPONSE"
+                }]
                 }]
                 sendButLocation(from, teks, `Mhycka™© | Made With❣️`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
 				
@@ -3225,6 +3232,10 @@ reply(`${e}`)
 }
 }
 break
+                        case 'thksto':
+									reply('╭──「 *THANKS TO* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT*」')
+
+									break    
 						case 'clearall':{
 									if (!isOwner && !Ofc.key.fromMe) return
 									let chiit = await Zeeone.chats.all()
