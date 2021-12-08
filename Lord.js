@@ -1797,7 +1797,7 @@ Alasan : ${reason}`, [sender], true)
 										},{
 										"buttonId": `donasi`,
 										"buttonText": {
-											"displayText": "DONATIE"
+											"displayText": "DONATION"
 											},
 										"type": "RESPONSE"
 										},{
@@ -1814,7 +1814,7 @@ Alasan : ${reason}`, [sender], true)
 
 									break
 						case 'thksto':
-									reply('╭─❒ *INSTAGRAM*\n│➳ _*bit.ly/instagramhycka*_\n│➳ _*bit.ly/instagramhyckaa*_\n╰❒  \n\n╭──「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT*」')
+									reply('╭─❒ *INSTAGRAM*\n│➳ _*bit.ly/instagramhycka*_\n│➳ _*bit.ly/instagramhyckaa*_\n╰❒ _*Creator NΛSΛ-BOT*_\n\n╭──「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *http://bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/aeizk_21*\n│\n╰─「 *NΛSΛ-BOT*」')
 
 									break
 						case 'join':case 'joingc':
