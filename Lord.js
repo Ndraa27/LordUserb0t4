@@ -439,15 +439,15 @@ var waktoo = date.getHours();
 				mess = {
 					wait: 'Proses Lord..',
 					limit: 'Limit kamu habis lord , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
-					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
+					sewabot: ` 「 *SEWA BOT* 」 \n\n*Berikut list sewa bot kami*
 
-•➳ 1 MINGGU = Rp 10.000
-➳ 2 MINGGU = Rp 15.000
-➳ 3 MINGGU = Rp 20.000
-➳ 1 BULAN   = Rp 25.000
+```➳ 1 MINGGU = Rp 10.000```
+```➳ 2 MINGGU = Rp 15.000```
+```➳ 3 MINGGU = Rp 20.000```
+```➳ 1 BULAN   = Rp 25.000```
 
-MINAT? PM:
-_wa.me/${owner_number}_`,
+*MINAT? PM:*
+_*wa.me/${owner_number}*_`,
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
 					error: 'Error Lord, Mungkin Lagi Diperbaiki',
 					errorLink: 'Link Error Lord',
@@ -456,7 +456,7 @@ _wa.me/${owner_number}_`,
 						personal: 'Only Private Chat Lord',
 						admin: 'Khusus Admin Group Lord',
 						group: 'Khusus Dalam Grup Lord',
-						 prem: 'Khusus User Premium Lord',
+						 prem: 'Khusus  Owner Bot Lord',
 						owner: 'Khusus Owner Bot Lord',
 						 }
 					} 
@@ -1970,7 +1970,7 @@ Alasan : ${reason}`, [sender], true)
 										} else if (args[0] === "close") {
 											Zeeone.groupSettingChange(from, GroupSettingChange.messageSend, true)
 											} else {
-												reply (`${prefix + command} buka / tutup`)
+												reply (`*example : group close / open*`)
 												}
 									break 
 						case 'promote':
@@ -2259,7 +2259,7 @@ Alasan : ${reason}`, [sender], true)
 💱 Role : ${role}
 🎚️ Level : ${getLevelingLevel(sender)}
 🏦 Xp : ${getLevelingXp(sender)}
-💌 Status : ${isOwner?`Owner`:isPremium?`Premium User
+💌 Status : ${isOwner?`Owner ⚔️`:isPremium?`Premium User
 ⏳ Expired Prem : ${cek.days} d, ${cek.hours} h, ${cek.minutes} m, ${cek.seconds} s`:isUser?`Free User`:`Belum Daftar`}
 🚫 Baned : ${isBanned?`Terbanned`:`Tidak Terbanned`}`, quoted: Ofc, contextInfo:{mentionedJid:[sender]}})
 									}
