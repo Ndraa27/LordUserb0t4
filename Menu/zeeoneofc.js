@@ -83,6 +83,7 @@ ${simbolnya} ${prefix}wikipedia
 ${simbolnya} ${prefix}playstore
 ${simbolnya} ${prefix}brainly
 ${simbolnya} ${prefix}yts
+${simbolnya} ${prefix}ssweb
 
 ℒ⃝🗂️ *Storage-Menu*
 ${simbolnya} ${prefix}addrespon
@@ -164,7 +165,6 @@ ${simbolnya} ${prefix}grass
 
 ℒ⃝🏷️ *Others-Menu*
 ${simbolnya} ${prefix}artinama
-${simbolnya} ${prefix}fdeface
 ${simbolnya} ${prefix}pantun
 ${simbolnya} ${prefix}faktaunik
 ${simbolnya} ${prefix}styletext
