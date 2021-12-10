@@ -437,7 +437,7 @@ var waktoo = date.getHours();
   		      var ucapannya = `Night 🌚 ${pushname}`
 				}
 				mess = {
-					wait: 'Proses Lord..',
+					wait: 'Proses kak..',
 					limit: 'Limit kamu habis lord , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
 					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
 
@@ -447,13 +447,13 @@ Minat? Pm wa.me/${owner_number}`,
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
 					error: 'Error Lord, Mungkin Lagi Diperbaiki',
 					errorLink: 'Link Error Lord',
-					succes: '```[ ✓ ]``` Sukses Lord',
+					succes: '```[ ✓ ]``` Sukses kak',
 					only: {
-						personal: 'Only Private Chat Lord',
-						admin: 'Khusus Admin Group Lord',
-						group: 'Khusus Dalam Grup Lord',
-						 prem: 'Khusus User Premium Lord',
-						owner: 'Khusus Owner Bot Lord',
+						personal: 'Only Private Chat kak',
+						admin: 'Khusus Admin Group kak',
+						group: 'Khusus Dalam Grup kak',
+						 prem: 'Khusus Owner bot kak',
+						owner: 'Khusus Owner Bot kak',
 						 }
 					} 
 	    const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289523258649-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: thumbnail, surface: 200, message: `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, orderTitle: 'zeeoneofc', sellerJid: '0@s.whatsapp.net'}}, sendEphemeral: true}
@@ -3265,7 +3265,7 @@ break
 									break
 						case 'nuliskiri':{
 									if (isLimit(sender, isPremium, isOwner, limitawal, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
-									if (args.length < 1) return reply(`Kirim perintah *${prefix}nuliskiri* teks`)
+									if (args.length < 1) return reply(`*Exemple*\n ${prefix}nuliskiri Mhycka Ganteng`)
 									reply(mess.wait)
 									const tulisan = q
 									const splitText = tulisan.replace(/(\S+\s*){1,9}/g, '$&\n')
@@ -3294,7 +3294,7 @@ break
 									break
 						case 'nuliskanan':{
 									if (isLimit(sender, isPremium, isOwner, limitawal, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
-									if (args.length < 1) return reply(`Kirim perintah *${prefix}nuliskanan* teks`)
+									if (args.length < 1) return reply(`*Exemple*\n ${prefix}nuliskiri Mhycka Ganteng`)
 									reply(mess.wait)
 									const tulisan = q
 									const splitText = tulisan.replace(/(\S+\s*){1,9}/g, '$&\n')
