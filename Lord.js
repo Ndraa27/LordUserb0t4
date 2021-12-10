@@ -3100,6 +3100,39 @@ ${teks}`, members_id, true)
 											hideTag(from, `${quotedText}`)
 											}
 									break
+						case 'autoread':
+if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
+if (args.length < 1) return reply(`Example:\n${prefix}autoread gc on`)
+if (args[0] === "gc") {
+if (args.length < 2) return reply(`Example:\n${prefix}autoread gc on`)
+if (args[1] === "on") {
+if (readGc === true) return reply(lang.anjawaUdhOn(command))
+readGc = true
+reply(`Succes mengaktifkan autoread group`)
+} else if (args[1] === "off") {
+if (readGc === false) return
+readGc = false
+reply(`Succes mematikan autoread group`)
+} else {
+reply(`Pilih on atau off`)
+}
+} else if (args[0] === "pc") {
+if (args.length < 2) return reply(`Example:\n${prefix}autoread pc on`)
+if (args[1] === "on") {
+if (readPc === true) return reply(lang.anjawaUdhOn(command))
+readPc = true
+reply(`Succes mengaktifkan autoread pc`)
+} else if (args[1] === "off") {
+if (readPc === false) return
+readPc = false
+reply(`Succes mematikan autoread pc`)
+} else {
+reply(`Pilih on atau off`)
+}
+} else {
+reply(`*List Auto Read*\n•> gc\n•> pc`)
+}
+break
 						case 'tts': case 'say':
 									try {if (args.length > 50) return reply('```Error, Teks Terlalu Panjang!```')
 									if (isLimit(sender, isPremium, isOwner, limitawal, limit)) return reply(mess.limit)
