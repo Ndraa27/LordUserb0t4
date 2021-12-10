@@ -1810,7 +1810,7 @@ Alasan : ${reason}`, [sender], true)
 											},
 										"type": "RESPONSE"
 										}]
-										sendButLocation(from, sewabotkak(), `Sewa bot kak?`,  thumbnail, gakloo,{})
+										sendButLocation(from, sewabotkak(), `© ᴹᴿ°᭄Mhyckaོ`,  thumbnail, gakloo,{})
 										break
 					   case 'thksto':
 									reply('╭──「 *THANKS TO* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *https://bit.ly/instagramhycka*\n│ *http://bit.ly/instagraisyahmad*\n│ *http://bit.ly/instagramitadilla*\n│ *http://bit.ly/instagraeizk*\n│\n╰─「 *NΛSΛ-BOT*」')
@@ -3259,7 +3259,7 @@ let qqppp = [{
                     },
                     "type": "RESPONSE"
                 }]
-                sendButLocation(from, teks, `Mhycka™© | Made With❣️`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
+                sendButLocation(from, teks, `ᴹᴿ°᭄Mhyckaོ | Made With❣️`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
 				
 } catch (e){
 reply(`${e}`)
