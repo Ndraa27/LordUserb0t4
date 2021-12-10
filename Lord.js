@@ -1748,7 +1748,7 @@ if (!q) return reply('Linknya?')
 					teks = q
 					anu = await fetchJson(`https://shot.screenshotapi.net/screenshot?&url=${teks}`)
 					buff = await getBuffer(anu.screenshot)
-					Zeeone.sendMessage(from, buff, image, {quoted: mek, caption : teks})
+					Zeeone.sendMessage(from, buff, image, {quoted: Ofc, caption : teks})
 					break
 			case 'artinama':
                 if (args.length < 1) return reply('Apa yang mau dicari um?')
@@ -3115,7 +3115,7 @@ ${teks}`, members_id, true)
 											}
 									break
 						case 'autoread':
-if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
+if (!Ofc.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
 if (args.length < 1) return reply(`Example:\n${prefix}autoread gc on`)
 if (args[0] === "gc") {
 if (args.length < 2) return reply(`Example:\n${prefix}autoread gc on`)
