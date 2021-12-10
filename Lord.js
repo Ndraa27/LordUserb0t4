@@ -1742,6 +1742,20 @@ if (!q) return reply('Linknya?')
 									limitAdd(sender, limit)
 									}
 									break
+                                               case 'ssweb':
+            case 'ss':
+                if (args.length < 1) return reply('Urlnya mana om')
+					teks = q
+					anu = await fetchJson(`https://shot.screenshotapi.net/screenshot?&url=${teks}`)
+					buff = await getBuffer(anu.screenshot)
+					Zeeone.sendMessage(from, buff, image, {quoted: mek, caption : teks})
+					break
+			case 'artinama':
+                if (args.length < 1) return reply('Apa yang mau dicari um?')
+                teks = q
+					anu = await fetchJson(`https://mnazria.herokuapp.com/api/arti?nama=${teks}`, {method: 'get'})
+					reply(`Arti Nama ${teks}\n\n`+anu.result)
+				break
 						case 'delete': case 'del': case 'd':
 									if (!Ofc.key.fromMe && !isGroupAdmins && !isOwner)return reply(mess.only.admin)
 									if (!isQuotedReply) return reply(`Reply pesan dari bot!!`)
