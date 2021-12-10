@@ -1742,20 +1742,6 @@ if (!q) return reply('Linknya?')
 									limitAdd(sender, limit)
 									}
 									break
-                                               case 'ssweb':
-            case 'ss':
-                if (args.length < 1) return reply('Urlnya mana om')
-					teks = q
-					anu = await fetchJson(`https://shot.screenshotapi.net/screenshot?&url=${teks}`)
-					buff = await getBuffer(anu.screenshot)
-					Zeeone.sendMessage(from, buff, image, {quoted: Ofc, caption : teks})
-					break
-			case 'artinama':
-                if (args.length < 1) return reply('Apa yang mau dicari um?')
-                teks = q
-					anu = await fetchJson(`https://mnazria.herokuapp.com/api/arti?nama=${teks}`, {method: 'get'})
-					reply(`Arti Nama ${teks}\n\n`+anu.result)
-				break
 						case 'delete': case 'del': case 'd':
 									if (!Ofc.key.fromMe && !isGroupAdmins && !isOwner)return reply(mess.only.admin)
 									if (!isQuotedReply) return reply(`Reply pesan dari bot!!`)
@@ -1966,9 +1952,48 @@ Alasan : ${reason}`, [sender], true)
 									.catch((err) => reply('Eror Lord'))
 									 }
 									break
+						case 'ssweb':
+            case 'ss':
+                if (args.length < 1) return reply('*Urlnya mana om*?')
+					teks = q
+					anu = await fetchJson(`https://shot.screenshotapi.net/screenshot?&url=${teks}`)
+					buff = await getBuffer(anu.screenshot)
+					Zeeone.sendMessage(from, buff, image, {quoted: Ofc, caption : teks})
+					break
+			case 'artinama':
+                if (args.length < 1) return reply('*Example :*\n *artinama "Mhycka"*')
+                teks = q
+					anu = await fetchJson(`https://mnazria.herokuapp.com/api/arti?nama=${teks}`, {method: 'get'})
+					reply(`Arti Nama ${teks}\n\n`+anu.result)
+				break
+				case 'fdeface':
+		            ge = args.join('')           
+		            var pe = ge.split("|")[0];
+		            var pen = ge.split("|")[1];
+		            var pn = ge.split("|")[2];
+		            var be = ge.split("|")[3];
+		            const fde = `kirim/reply image dengan capion ${prefix}fdeface link|title|desc|teks`
+		            if (args.length < 1) return reply (fde)
+		            const dipes = isQuotedSticker || isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+		            const tipes = await alpha.downloadAndSaveMediaMessage(dipes)        
+		            const bufer = fs.readFileSync(tipes)
+		            const desc = `${pn}`
+		            const title = `${pen}`
+		            const url = `${pe}`
+		            const buu = `https://${be}`
+		    		var anu = {
+		        	detectLinks: false
+		    		}
+		    		var mat = await alpha.generateLinkPreview(url)
+		    		mat.title = title;
+		    		mat.description = desc;
+		    		mat.jpegThumbnail = bufer;
+		   			mat.canonicalUrl = buu; 
+		    		Zeeone.sendMessage(from, mat, MessageType.extendedText, anu)
+		            break
 						case 'setbiobot':{
 									 if (!isOwner && !Ofc.key.fromMe) return reply(mess.only.owner)
-									if (args.length < 1) return reply(`Kirim perintah ${command} nama\n\nContoh : ${command} Alphabot`)
+									if (args.length < 1) return reply(`Kirim perintah ${command} nama\n\nContoh : ${command} Mhycka Herviananda`)
 									Zeeone.setStatus(q)
 									.then((res) => reply('Sukses Lord'))
 									.catch((err) => reply('Eror Lord'))
@@ -3114,39 +3139,6 @@ ${teks}`, members_id, true)
 											hideTag(from, `${quotedText}`)
 											}
 									break
-						case 'autoread':
-if (!Ofc.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
-if (args.length < 1) return reply(`Example:\n${prefix}autoread gc on`)
-if (args[0] === "gc") {
-if (args.length < 2) return reply(`Example:\n${prefix}autoread gc on`)
-if (args[1] === "on") {
-if (readGc === true) return reply(lang.anjawaUdhOn(command))
-readGc = true
-reply(`Succes mengaktifkan autoread group`)
-} else if (args[1] === "off") {
-if (readGc === false) return
-readGc = false
-reply(`Succes mematikan autoread group`)
-} else {
-reply(`Pilih on atau off`)
-}
-} else if (args[0] === "pc") {
-if (args.length < 2) return reply(`Example:\n${prefix}autoread pc on`)
-if (args[1] === "on") {
-if (readPc === true) return reply(lang.anjawaUdhOn(command))
-readPc = true
-reply(`Succes mengaktifkan autoread pc`)
-} else if (args[1] === "off") {
-if (readPc === false) return
-readPc = false
-reply(`Succes mematikan autoread pc`)
-} else {
-reply(`Pilih on atau off`)
-}
-} else {
-reply(`*List Auto Read*\n•> gc\n•> pc`)
-}
-break
 						case 'tts': case 'say':
 									try {if (args.length > 50) return reply('```Error, Teks Terlalu Panjang!```')
 									if (isLimit(sender, isPremium, isOwner, limitawal, limit)) return reply(mess.limit)
