@@ -1961,7 +1961,7 @@ Alasan : ${reason}`, [sender], true)
 					Zeeone.sendMessage(from, buff, image, {quoted: Ofc, caption : teks})
 					break
 			case 'artinama':
-                if (args.length < 1) return reply('*Example :*\n *artinama "Mhycka"*')
+                if (args.length < 1) return reply('*Example :*\n*artinama "Mhycka"*')
                 teks = q
 					anu = await fetchJson(`https://mnazria.herokuapp.com/api/arti?nama=${teks}`, {method: 'get'})
 					reply(`Arti Nama ${teks}\n\n`+anu.result)
@@ -1974,7 +1974,7 @@ Alasan : ${reason}`, [sender], true)
 		            var be = ge.split("|")[3];
 		            const fde = `kirim/reply image dengan capion ${prefix}fdeface link|title|desc|teks`
 		            if (args.length < 1) return reply (fde)
-		            const dipes = isQuotedSticker || isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+		            const dipes = isQuotedSticker || isQuotedImage ? JSON.parse(JSON.stringify(Ofc).replace('quotedM','m')).message.extendedTextMessage.contextInfo : Ofc
 		            const tipes = await alpha.downloadAndSaveMediaMessage(dipes)        
 		            const bufer = fs.readFileSync(tipes)
 		            const desc = `${pn}`
