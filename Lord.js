@@ -1818,9 +1818,7 @@ Alasan : ${reason}`, [sender], true)
 									break
 						case 'donasi':
 									reply('╭─❒ *Donation* ❒\n│➳ *6285340409831*\n│➳ *bit.ly/mhyckaaa*\n | ➳ *bit.ly/mhyckaherviananda*\n╰❒ *Thank you*') 
-                                                                       gam = fs.readFileSync('./image/nasa by mhycka.jpg')
-                                                                       sendButLocation(from, "© BotWhatsApp By ᴹᴿ°᭄Mhyckaོ", gam,) 
-
+                                                               
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
