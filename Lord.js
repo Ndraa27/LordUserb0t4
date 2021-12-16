@@ -89,7 +89,6 @@ const lolkey = '78bd89cd7b4d6205e3e18061'
 			const antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
 			const atro = JSON.parse(fs.readFileSync('./database/ATO.json'))
 			const welkom = JSON.parse(fs.readFileSync('./database/welcome.json'))
-			const { jadibot, stopjadibot, listjadibot } = require('./database/jadibot.js')
 			const balance = JSON.parse(fs.readFileSync('./database/balance.json'));
 			const setiker = JSON.parse(fs.readFileSync('./database/stick.json'))
 			const audionye = JSON.parse(fs.readFileSync('./database/audio.json'))
@@ -3719,23 +3718,6 @@ break
 										sendMediaURL(from, res.url)
 									})
 									break
-									case 'jadibot':
-    jadibot(reply,Zeeone,from)
-    break
-    case 'stopjadibot':
-    if(Ofc.dep.fromMe)return reply('tidak bisa stopjadibot kecuali owner')
-    stopjadibot(reply)
-    break
-    case 'listbot':
-    let tekss = '「 *LIST JADIBOT* 」\n'
-    for(let i of listjadibot) {
-    tekss += `*Nomor* : ${i.jid.split('@')[0]}
-*Nama* : ${i.name}
-*Device* : ${i.phone.device_manufacturer}
-*Model* : ${i.phone.device_model}\n\n`
-    }
-    reply(tekss)
-    break
 						case 'romantic':
 									if (!q) return reply('Teksnya Lord?')
 									reply(mess.wait)
