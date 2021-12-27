@@ -443,7 +443,7 @@ var waktoo = date.getHours();
 
 •> 25k / BULAN
 
-Minat? Pm wa.me/${owner_number}`,
+Minat? Pm wa.me/62882117845`,
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
 					error: 'Error Lord, Mungkin Lagi Diperbaiki',
 					errorLink: 'Link Error Lord',
@@ -2909,7 +2909,7 @@ Alasan : ${reason}`, [sender], true)
 										"displayName": `${ini_list.length} kontak`,
 										"contacts": ini_list 
 										}, 'contactsArrayMessage', { quoted: Ofc })
-										Zeeone.sendMessage(from, `Jika Mau Save Chat Aja Gan Ntar Disave Back:)`, text, {quoted: hehe})
+										Zeeone.sendMessage(from, `Nih kak kontak Ownerku yg ganteng:)`, text, {quoted: hehe})
 										}
 										break
 						case 'lirik':
