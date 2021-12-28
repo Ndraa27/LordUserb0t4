@@ -1826,10 +1826,10 @@ Alasan : ${reason}`, [sender], true)
 										sendButLocation(from, sewabotkak(), `Sewa bot om?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
-									reply('🌀 tinyurl.com/yxt5fmkv')
+									reply('🌀 tinyurl.com/y3p4uxsw')
 									break
 						case 'thksto':
-									reply('╭─「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n│➳ *Adilla Paramita*\n│\n│ *bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *https://bit.ly/instagrizkyfaisal*\n│\n╰─「 *LanguAR-BOT*」')
+									reply('╭─「 *Thanks To* 」\n│\n│➳ *Mhycka Herviananda*\n│➳ *Aisyah Ahmad*\n│➳ *Rizky Faisal*\n|➳ *Indra Lesmana*\n|➳ *Adilla Paramita*\n│\n│ *bit.ly/instagramhycka*\n│ *instagram.com/aisya_hamd16*\n│ *instagram.com/mita.adllaa*\n│ *instagram.com/Indralsmna27*\n| *https://bit.ly/instagrizkyfaisal*\n│\n╰─「 *Ndraa-BOT*」')
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
