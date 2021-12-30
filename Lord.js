@@ -443,7 +443,7 @@ var waktoo = date.getHours();
 
 •> 25k / BULAN
 
-Minat? Pm wa.me/62882117845`,
+Minat? Pm wa.me/6288211784515`,
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
 					error: 'Error Lord, Mungkin Lagi Diperbaiki',
 					errorLink: 'Link Error Lord',
